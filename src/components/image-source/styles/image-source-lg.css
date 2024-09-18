@@ -1,0 +1,10 @@
+@media (min-width: 64rem) {
+    #my-video2 {
+        max-height: 95%;
+    }
+
+    #my-video,
+    .no-video {
+        max-width: 100%;
+    }
+}

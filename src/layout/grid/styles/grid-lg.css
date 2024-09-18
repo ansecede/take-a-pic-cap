@@ -1,0 +1,29 @@
+@media (min-width: 64rem) {
+    #grid-container {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 65% 35%; /* repeat(3, 1fr); */
+        grid-template-rows: repeat(18, 1fr);
+    }
+
+    .left-container {
+        /* margin: 0.25rem; */
+        padding: 1rem;
+        /* background-color: peru; */
+        grid-row: span 16;
+    }
+
+    .right-container {
+        /* margin: 0.25rem; */
+        padding: 1rem;
+        /* background-color: rgb(180, 180, 180); */
+        grid-row: span 16;
+    }
+
+    .action-buttons {
+        margin: 0.25rem;
+        background-color: transparent;
+        grid-column: 2;
+        grid-row: span 2;
+    }
+}

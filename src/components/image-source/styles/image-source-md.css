@@ -1,0 +1,7 @@
+/* Minimum width */
+@media (min-width: 57rem) {
+  #my-video,
+  .no-video {
+    max-width: 75%;
+  }
+}

@@ -1,0 +1,21 @@
+@media (min-width: 64rem) {
+    .title {
+        padding-left: 50px;
+        flex-direction: row;
+        align-items: center;
+        /* overflow: hidden; */
+    }
+
+    .title-text {
+        font-size: 1.6em;
+        text-align: unset;
+        padding: unset;
+    }
+
+    .sponsors {
+        margin-left: auto;
+        width: 40%;
+        justify-content: space-evenly;
+        margin-bottom: unset;
+    }
+}

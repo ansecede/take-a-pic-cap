@@ -1,0 +1,49 @@
+.title {
+  background-color: var(--title-bg-color);
+  grid-column: span 2;
+  grid-row: span 2;
+  min-height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* overflow: hidden; */
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+.title-text {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.sponsors {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponsors-placeholder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors-text{
+  text-align: center;
+  padding: 1rem;
+}
+
+.brand-logo {
+  max-width: 150px;
+  width: 40%;
+  /* This makes bg same color as container bg. Has some caveats: Check
+  https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode */
+  mix-blend-mode: multiply;
+}
+
+/* For multiple logo handling */
+.sponsors img {
+  object-fit: contain;
+}

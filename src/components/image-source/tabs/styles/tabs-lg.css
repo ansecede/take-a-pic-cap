@@ -1,0 +1,6 @@
+@media (min-width: 64rem) {
+  .tabs-content {
+    flex-grow: 1;
+    max-height: unset;
+  }
+}

@@ -1,0 +1,33 @@
+.stream {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid rgba(234, 22, 39, 0.8); */
+    display: grid;
+    place-content: center;
+}
+
+.stream video,
+.stream img {
+    height: 100%;
+    /* width: 80%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.actions {
+    height: 13%;
+    display: grid;
+    place-content: center;
+}
+
+#my-video,
+.no-video {
+    max-width: 85%;
+}
+
+#my-video2 {
+    max-height: 50%;
+}
